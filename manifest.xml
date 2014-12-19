@@ -1,0 +1,12 @@
+<Manifest>
+    <ScripterInstanceName>JMF-Status</ScripterInstanceName>
+    <ScriptPackageFormatVersion>1.0</ScriptPackageFormatVersion>
+    <ScripterPassword></ScripterPassword>
+    <ScriptDeclarationFile>Status.xml</ScriptDeclarationFile>
+    <ScriptProgramFiles>
+        <ScriptProgramFile ScriptLanguage="JavaScript">Status.js</ScriptProgramFile>
+    </ScriptProgramFiles>
+    <ScriptIconFile>JMF_ico.png</ScriptIconFile>
+    <AppleBinary></AppleBinary>
+    <LocalizationItems/>
+</Manifest>

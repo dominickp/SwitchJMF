@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Object>
+    <ElementFields>
+        <Name Type="string" Editor="hide">JMF-Status</Name>
+        <DisplayName Type="string" Editor="hide"/>
+        <Version Type="number" Editor="hide">1</Version>
+        <Keywords Type="string" Editor="hide"/>
+        <Tooltip Type="string" Editor="hide"/>
+        <IncomingConnections RequireAtLeastOne="Yes" Editor="hide">Yes</IncomingConnections>
+        <OutgoingConnections RequireAtLeastOne="Yes" DetailedInfo="" Editor="hide">Unlimited</OutgoingConnections>
+        <ConnectionType Editor="hide">TrafficLight</ConnectionType>
+        <ScriptFunctions Editor="hide">jobArrived</ScriptFunctions>
+        <ExecutionMode Editor="hide">Serialized</ExecutionMode>
+        <NumberOfSlots Editor="hide">Default</NumberOfSlots>
+        <ExecutionGroup Editor="hide"/>
+        <PerformanceTuning Editor="hide">No</PerformanceTuning>
+        <IdleAfterJob Editor="hide">0</IdleAfterJob>
+        <PositionInElementPane Editor="hide">Configurators</PositionInElementPane>
+        <SubcategoryInElementPane Editor="hide">&lt;ValueDescription Type="stringlist">&lt;Value>Custom&lt;/Value>&lt;/ValueDescription></SubcategoryInElementPane>
+        <DispositionInElementPane Type="number" Editor="hide"/>
+        <Description Type="string" Editor="hide"/>
+        <Compatibility Type="string" Editor="hide"/>
+        <SupportInfo Type="string" Editor="hide"/>
+        <AppDiscovery Type="string" Editor="hide"/>
+        <Connections Type="string" Editor="hide"/>
+        <SwitchModule Type="string" Editor="hide"/>
+        <ObsoleteProperties Type="string" Editor="hide"/>
+        <ObsoleteConnectionProperties Type="string" Editor="hide"/>
+        <DeviceURL Validation="Standard" LocalizedTagName="Device URL" Subtype="inline" Default="" Tooltip="192.168.x.x:8080/dpp/jmf/dfe or192.168.x.x:8080/DEVICE-ID" DetailedInfo="" Type="string" Editor="inline"></DeviceURL>
+        <DetailType Validation="Standard" LocalizedTagName="Type" Subtype="inline" Default="Details" Tooltip="" DetailedInfo="" Type="enum:Details;Full" Editor="inline">Details</DetailType>
+        <ResponseDataSetName Validation="Standard" LocalizedTagName="Response Data Set Name" Subtype="inline" Default="" Tooltip="" DetailedInfo="" Type="string" Editor="inline"></ResponseDataSetName>
+        <DebugLevel Validation="Standard" LocalizedTagName="Debug Level" Subtype="inline" Default="0" Tooltip="" DetailedInfo="" Type="enum:0;1" Editor="inline">0</DebugLevel>
+    </ElementFields>
+    <ConnectionFields>
+        <Success LocalizedTagName="Success out" Default="Yes" Type="bool" Editor="inline">Yes</Success>
+    </ConnectionFields>
+</Object>
